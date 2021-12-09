@@ -8,3 +8,6 @@
 
 ## Функционал
 Не имеет, только тексты ссылки и изображения. 
+
+### gh-pages
+https://maryutinvlad.github.io/russian-travel/
