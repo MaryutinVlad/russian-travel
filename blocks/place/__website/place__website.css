@@ -1,25 +1,27 @@
 .place__website {
-    max-width: 460px;
-    margin: 0 0 48px;
+    max-width: 456px;
+    margin: 0 0 48px 40px;
     align-self: flex-end;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1150px) {
     .place__website {
-        max-width: 456px;
+        margin: 0 0 48px 32px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px) {
     .place__website {
-        max-width: 352px;
+        min-width: 352px;
+        max-width: 0 0 48px 28px;
+        justify-self: left;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 765px) {
     .place__website {
-        max-width: 288px;
-        margin: 0 16px 32px;
-        align-self: flex-start;
+        min-width: 288px;
+        margin: 0 0 32px;
+        justify-self: center;
     }
 }

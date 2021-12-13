@@ -1,2 +1,21 @@
 .place__text {
+    margin: 0 0 0 40px;
+}
+
+@media screen and (max-width: 1150px) {
+    .place__text {
+        margin: 0 0 0 32px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .place__text {
+        margin: 0 0 0 28px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .place__text {
+        margin: 0;
+    }
 }
