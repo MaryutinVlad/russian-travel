@@ -14,20 +14,17 @@
 @media screen and (max-width: 1150px) {
     .page {
         max-width: 1150px;
-        min-width: 1024px;
     }
 }
 
 @media screen and (max-width: 1020px) {
     .page {
         max-width: 1020px;
-        min-width: 768px;
     }
 }
 
 @media screen and (max-width: 765px) {
     .page {
         max-width: 765px;
-        min-width: 320px;
     }
 }

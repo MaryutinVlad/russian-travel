@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1020px) {
     .place {
-        justify-items: center;
+        justify-items: start;
     }
 }
 
@@ -16,6 +16,5 @@
     .place {
         grid-template-rows: repeat(auto-fill, auto-fit);
         grid-template-columns: 1fr;
-        justify-items: center;
     }
 }

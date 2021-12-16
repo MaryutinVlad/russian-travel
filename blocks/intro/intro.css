@@ -8,20 +8,22 @@
 
 @media screen and (max-width: 1150px) {
     .intro {
-        margin: 92px 48px 0;
+        margin: 92px auto 92px 24px;
     }
 }
 
 @media screen and (max-width: 1020px) {
     .intro {
         min-width: 720px;
-        margin: 88px 24px 0;
+        width: calc(100% - 24px * 2);
+        margin: 88px auto 88px 24px;
     }
 }
 
 @media screen and (max-width: 765px) {
     .intro {
         min-width: 288px;
-        margin: 64px 16px 0;
+        width: calc(100% - 16px * 2);
+        margin: 64px auto 64px 16px;
     }
 }
