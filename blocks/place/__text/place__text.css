@@ -1,21 +1,27 @@
 .place__text {
-    margin: 0 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px 0;
 }
 
 @media screen and (max-width: 1150px) {
     .place__text {
-        margin: 0 0 0 32px;
+        gap: 27px 0;
     }
 }
 
 @media screen and (max-width: 1020px) {
     .place__text {
-        margin: 0 0 0 28px;
+        line-height: 26.08px;
+        font-size: 16px;
+        gap: 25px 0;
     }
 }
 
 @media screen and (max-width: 765px) {
     .place__text {
-        margin: 0;
+        gap: 16px 0;
+        box-sizing: border-box;
+        padding: 0 16px;
     }
 }

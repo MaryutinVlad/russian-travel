@@ -1,10 +1,10 @@
 .cover__link {
     min-height: 740px;
-    opacity: 0.7;
     text-decoration: none;
     color: #ffffff;
     background-image: url(../../../images/cover-trains.png);
     background-size: cover;
+    background-position: center;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -27,6 +27,7 @@
 
 .cover__link:hover::before {
     opacity: .8;
+    transition: opacity .3s linear;
 }
 
 @media screen and (max-width: 1150px) {

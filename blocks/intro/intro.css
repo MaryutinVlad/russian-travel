@@ -1,29 +1,30 @@
 .intro {
-    max-width: 690px;
+    max-width: 984px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 92px 0 0;
+    margin: 92px auto 0;
 }
 
 @media screen and (max-width: 1150px) {
     .intro {
-        margin: 92px auto 92px 24px;
+        max-width: 928px;
     }
 }
 
 @media screen and (max-width: 1020px) {
     .intro {
-        min-width: 720px;
+        max-width: 928px;
         width: calc(100% - 24px * 2);
-        margin: 88px auto 88px 24px;
+        margin: 88px auto;
     }
 }
 
 @media screen and (max-width: 765px) {
     .intro {
-        min-width: 288px;
+        max-width: 720px;
         width: calc(100% - 16px * 2);
-        margin: 64px auto 64px 16px;
+        min-width: 288px;
+        margin: 64px auto;
     }
 }

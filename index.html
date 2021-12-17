@@ -12,11 +12,11 @@
 <body class="page">
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="Россия">
-      <a class="header__lang-link paled-link" href="#">Ru</a>
+      <a class="header__lang-link header__lang-link_active paled-link" href="#">Ru</a>
       <a class="header__lang-link paled-link" href="#">En</a>
     </header>
 
-    <main>
+    <main class="content">
       <section class="lead">
         <h1 class="lead__title">
           Путешествия по России
@@ -88,7 +88,7 @@
           </h2>
           <div class="place__website">
             <p class="place__url-heading">
-              URL
+              url
             </p>
             <a class="place__link paled-link" href="http://www.park-kosa.ru" target="blank">
               park-kosa.ru
@@ -115,7 +115,7 @@
           </h2>
           <div class="place__website">
             <p class="place__url-heading">
-              URL
+              url
             </p>
             <a class="place__link paled-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="blank">
               National Geographic
@@ -142,7 +142,7 @@
           </h2>
           <div class="place__website">
             <p class="place__url-heading">
-              URL
+              url
             </p>
             <a class="place__link paled-link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="blank">
               Facebook
@@ -169,7 +169,7 @@
           </h2>
           <div class="place__website">
             <p class="place__url-heading">
-              URL
+              url
             </p>
             <a class="place__link paled-link" href="https://vk.com/baikalmile" target="blank">
               https://vk.com/baikalmile
@@ -182,7 +182,7 @@
               что это самый большой источник пресной воды и одно из красивейших мест в России.
             </p>
             <p class="place__paragraph">
-              Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. 
+              Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. 
               Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается 
               развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» 
               был поставлен мировой рекорд — 197.011 км/ч.
@@ -195,7 +195,7 @@
           </h2>
           <div class="place__website">
             <p class="place__url-heading">
-              URL
+              url
             </p>
             <a class="place__link paled-link" href="http://vodlozero.ru/" target="blank">
               http://vodlozero.ru/
@@ -214,23 +214,27 @@
           </div>  
         </article>
       </section>
+      
+      <section class="cover">
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">  
+          <h2 class="cover__title">
+            До Байкала «на собаках»
+          </h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+          </p>
+        </a>
+      </section> 
     </main>
-    <div class="cover">
-     <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">  
-        <h2 class="cover__title">
-          До Байкала «на собаках»
-        </h2>
-        <p class="cover__subtitle">
-          По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-        </p>
-      </a>
-    </div>    
+
     <footer class="footer">
-      <a class="footer__link paled-link" href="https://yandex.ru/maps" target="blank">Карты</a>
-      <a class="footer__link paled-link" href="https://yandex.ru/pogoda" target="blank">Погода</a>
-      <a class="footer__link paled-link" href="https://rasp.yandex.ru" target="blank">Расписание</a>
-      <a class="footer__link paled-link" href="https://calendar.yandex.ru" target="blank">Календарь</a>
-      <a class="footer__link paled-link" href="https://travel.yandex.ru" target="blank">Путешествия</a>
+      <nav class="footer__links">
+        <a class="footer__link paled-link" href="https://yandex.ru/maps" target="blank">Карты</a>
+        <a class="footer__link paled-link" href="https://yandex.ru/pogoda" target="blank">Погода</a>
+        <a class="footer__link paled-link" href="https://rasp.yandex.ru" target="blank">Расписание</a>
+        <a class="footer__link paled-link" href="https://calendar.yandex.ru" target="blank">Календарь</a>
+        <a class="footer__link paled-link" href="https://travel.yandex.ru" target="blank">Путешествия</a>
+      </nav>
       <p class="footer__copyright">
         &copy; 2021 Владислав М.
       </p>
