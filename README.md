@@ -12,5 +12,8 @@
 ## Стек
 HTML, CSS
 
+#### Запуск 
+  Перейти по ссылке ниже
+
 ### gh-pages
 https://maryutinvlad.github.io/russian-travel/
